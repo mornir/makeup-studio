@@ -18,6 +18,17 @@ export default {
       },
     },
     {
+      name: 'category',
+      title: 'Category',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'Fashion', value: 'fashion' },
+          { title: 'Bridal', value: 'bridal' },
+        ],
+      },
+    },
+    {
       name: 'orientation',
       title: 'Orientation',
       type: 'string',
@@ -30,4 +41,7 @@ export default {
       },
     },
   ],
+  initialValue: {
+    category: 'fashion',
+  },
 }
