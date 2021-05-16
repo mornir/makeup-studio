@@ -4,6 +4,12 @@ export default {
   type: 'document',
   fields: [
     {
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      hidden: true,
+    },
+    {
       title: 'Title',
       name: 'title',
       type: 'string',
@@ -55,5 +61,7 @@ export default {
   ],
   initialValue: {
     category: 'fashion',
+    sizeH: '1',
+    sizeV: '1',
   },
 }
